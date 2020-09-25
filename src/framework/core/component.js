@@ -1,7 +1,7 @@
 export class Component {
   constructor(config) {
-    this.template = config.template;
     this.selector = config.selector
+    this.template = config.template;
   }
 
   render() {
