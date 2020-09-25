@@ -1,2 +1,5 @@
-console.log('hello world');
-document.querySelector('h1').textContent ='www'
+import { appModule } from './app/app.module';
+import {bootstrap} from './framework';
+import {appModules} from './app/app.module';
+
+bootstrap(appModules)
